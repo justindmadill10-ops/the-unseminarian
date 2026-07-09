@@ -92,31 +92,3 @@ section {
   margin-bottom: 30px;
   border-radius: 8px;
 }
-
-/* ---- Mobile ---- */
-@media (max-width: 600px) {
-  header {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .nav-toggle {
-    display: block;
-  }
-
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.25s ease;
-  }
-
-  nav ul.open {
-    max-height: 300px;
-  }
-
-  nav ul li {
-    margin: 10px 0;
-  }
-}
