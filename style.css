@@ -97,9 +97,9 @@ section {
 h2 {
   font-size: 1.5rem;
   font-family: 'Spectral', Georgia, serif;
-  font-weight: 300;
+  font-weight: 600;
   color: #333;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 
 p {
