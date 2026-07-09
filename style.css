@@ -28,8 +28,12 @@ header h1 {
 }
 
 header img {
-  width: 100px;
+  width: 150px;
   height: auto;
+}
+
+header h1 .unseminarian-word {
+  color: #0077ff;
 }
 
 nav {
