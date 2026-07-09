@@ -34,7 +34,7 @@ header img {
 }
 
 header h1 .unseminarian-word {
-  color: #C9971F;
+  color: #555555;
 }
 
 nav {
@@ -92,4 +92,10 @@ section {
   padding: 50px;
   margin-bottom: 30px;
   border-radius: 8px;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Spectral', Georgia, serif;
+  font-weight: 600;
 }
