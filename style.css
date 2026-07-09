@@ -34,7 +34,7 @@ header img {
 }
 
 header h1 .unseminarian-word {
-  color: #666666;
+  color: #6666;
 }
 
 nav {
@@ -91,7 +91,7 @@ section {
   background: white;
   padding: 50px;
   margin-bottom: 30px;
-  border-radius: 16px;
+  border-radius: 32px;
 }
 
 h2 {
