@@ -102,3 +102,56 @@ p {
   padding-bottom: 50px;
 }
 
+/* Blog post list — extends style.css, matches its existing tokens:
+   background #f7f7f7, white rounded cards, Lora/Spectral fonts, gold accent #ffda7f */
+
+.post-list {
+  list-style: none;
+}
+
+.post-item {
+  padding: 25px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.post-item:first-child {
+  padding-top: 0;
+}
+
+.post-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.post-date {
+  display: block;
+  font-family: 'Lora', Georgia, serif;
+  font-size: 0.85rem;
+  color: #888;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.post-title {
+  font-family: 'Spectral', Georgia, serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.post-title a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.2s ease;
+}
+
+.post-title a:hover {
+  color: #d9a441; /* deeper gold for readable link contrast on white */
+}
+
+.post-excerpt {
+  padding-bottom: 0;
+  color: #555;
+  font-size: 1rem;
+}
